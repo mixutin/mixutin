@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="card-title card-desc">
+  <title id="card-title">Dauntless Revived: featured project</title>
+  <desc id="card-desc">Dauntless Revived is a private-server revival of Dauntless 1.4.4 with a self-hosted backend. Working solo on the host PC: login, Ramsgate, the Training Dojo, hunts, crafting, and saves that survive restarts. Working on progression and the Hunt Pass (M2); friends' multiplayer (M1) is next. A fork of Undaunted by gwog and contributors, AGPL-3.0, unofficial fan project.</desc>
+  <defs>
+    <linearGradient id="card-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120e0a"/>
+      <stop offset="1" stop-color="#1c140d"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="0.82" cy="0.35" r="0.45">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#fcd34d"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#fef3c7" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="card-frame">
+      <rect x="1" y="1" width="1198" height="378" rx="16"/>
+    </clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, "DejaVu Sans", sans-serif; }
+    .sweep { stroke-dasharray: 150 1100; animation: sweep 3.6s linear infinite; }
+    .ring { transform-origin: 1128px 140px; animation: ping 3.6s ease-out infinite; }
+    .ring2 { animation-delay: 1.8s; }
+    @keyframes sweep { from { stroke-dashoffset: 150; } to { stroke-dashoffset: -760; } }
+    @keyframes ping { 0% { transform: scale(0.5); opacity: 0.9; } 100% { transform: scale(2.4); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .sweep, .ring { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#card-frame)">
+    <rect width="1200" height="380" fill="url(#card-bg)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <rect width="1200" height="380" fill="url(#ember)"/>
+
+    <!-- heartbeat trace running into a server node (original graphic) -->
+    <path d="M760 140H880l12-10l10 10H930l8 18l14-98l14 116l10-36H1010l16-18l16 18H1118" fill="none" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path class="sweep" d="M760 140H880l12-10l10 10H930l8 18l14-98l14 116l10-36H1010l16-18l16 18H1118" fill="none" stroke="url(#trace)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle class="ring" cx="1128" cy="140" r="16" fill="none" stroke="#fcd34d" stroke-width="2" stroke-opacity="0.5"/>
+    <circle class="ring ring2" cx="1128" cy="140" r="16" fill="none" stroke="#fcd34d" stroke-width="2" stroke-opacity="0.3"/>
+    <circle cx="1128" cy="140" r="9" fill="#fcd34d"/>
+    <rect x="1086" y="176" width="84" height="12" rx="3" fill="#2a1f14" stroke="#4a3520"/>
+    <rect x="1086" y="194" width="84" height="12" rx="3" fill="#2a1f14" stroke="#4a3520"/>
+    <circle cx="1098" cy="182" r="2.5" fill="#34d399"/>
+    <circle cx="1098" cy="200" r="2.5" fill="#34d399"/>
+
+    <!-- heading -->
+    <text x="48" y="58" class="mono" font-size="13" letter-spacing="3" fill="#f59e0b">FEATURED PROJECT</text>
+    <text x="46" y="118" class="sans" font-size="54" font-weight="700" fill="#fff7ed">Dauntless Revived</text>
+    <text x="48" y="156" class="sans" font-size="21" fill="#e7d8c4">Private-server revival of Dauntless 1.4.4 · self-hosted backend</text>
+
+    <!-- works -->
+    <text x="48" y="202" class="mono" font-size="12" letter-spacing="2" fill="#a8a29e">WORKS TODAY (SOLO, ON THE HOST PC)</text>
+    <g class="sans" font-size="15" fill="#f5f5f4">
+      <rect x="48" y="214" width="84" height="32" rx="16" fill="#1f2a1f" stroke="#2f5a3a"/>
+      <circle cx="66" cy="230" r="4" fill="#34d399"/>
+      <text x="100" y="235" text-anchor="middle">login</text>
+      <rect x="142" y="214" width="112" height="32" rx="16" fill="#1f2a1f" stroke="#2f5a3a"/>
+      <circle cx="160" cy="230" r="4" fill="#34d399"/>
+      <text x="206" y="235" text-anchor="middle">Ramsgate</text>
+      <rect x="264" y="214" width="152" height="32" rx="16" fill="#1f2a1f" stroke="#2f5a3a"/>
+      <circle cx="282" cy="230" r="4" fill="#34d399"/>
+      <text x="348" y="235" text-anchor="middle">Training Dojo</text>
+      <rect x="426" y="214" width="84" height="32" rx="16" fill="#1f2a1f" stroke="#2f5a3a"/>
+      <circle cx="444" cy="230" r="4" fill="#34d399"/>
+      <text x="476" y="235" text-anchor="middle">hunts</text>
+      <rect x="520" y="214" width="108" height="32" rx="16" fill="#1f2a1f" stroke="#2f5a3a"/>
+      <circle cx="538" cy="230" r="4" fill="#34d399"/>
+      <text x="582" y="235" text-anchor="middle">crafting</text>
+      <rect x="638" y="214" width="232" height="32" rx="16" fill="#1f2a1f" stroke="#2f5a3a"/>
+      <circle cx="656" cy="230" r="4" fill="#34d399"/>
+      <text x="762" y="235" text-anchor="middle">saves survive restarts</text>
+    </g>
+
+    <!-- working on -->
+    <text x="48" y="282" class="mono" font-size="12" letter-spacing="2" fill="#a8a29e">WORKING ON, THEN NEXT</text>
+    <g class="sans" font-size="15" fill="#fde68a">
+      <rect x="48" y="294" width="290" height="32" rx="16" fill="#2a1f10" stroke="#8a5a14"/>
+      <circle cx="66" cy="310" r="4" fill="#f59e0b"/>
+      <text x="201" y="315" text-anchor="middle">progression &amp; Hunt Pass · M2</text>
+      <rect x="348" y="294" width="300" height="32" rx="16" fill="#1c1813" stroke="#4a3a28" stroke-dasharray="4 4"/>
+      <circle cx="366" cy="310" r="4" fill="none" stroke="#f59e0b" stroke-width="2"/>
+      <text x="506" y="315" text-anchor="middle" fill="#d6c7b3">next: friends' multiplayer · M1</text>
+    </g>
+
+    <text x="48" y="358" class="mono" font-size="13" fill="#8b7d6b">fork of Undaunted by gwog &amp; contributors · AGPL-3.0 · unofficial fan project</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="378" rx="16" fill="none" stroke="#3a2a18" stroke-width="2"/>
+</svg>
