@@ -69,6 +69,6 @@ Julkisia projektejani ovat **Vibrix**, **Lumina**, **Mallow**, **Dauntless Reviv
 
 </details>
 
-<!-- Updated 2026-09-29. Project sources: the linked public repositories.
+<!-- Updated 2026-10-10. Project sources: the linked public repositories.
 Artwork is repository-local; no analytics, counters or third-party image services.
 Design and implementation assisted by GPT-6 Astra Pro at the owner's request. -->
